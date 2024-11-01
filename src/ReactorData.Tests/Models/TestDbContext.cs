@@ -14,6 +14,10 @@ class TestDbContext : DbContext
     public DbSet<Movie> Movies => Set<Movie>();
 
     public DbSet<Director> Directors => Set<Director>();
+    
+    public DbSet<Game> Games => Set<Game>();
+    
+    public DbSet<Player> Players => Set<Player>();
 
     public TestDbContext() { }
 
